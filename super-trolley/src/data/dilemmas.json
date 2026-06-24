@@ -1,0 +1,693 @@
+[
+  {
+    "id": "trolley_1",
+    "title": "失控电车",
+    "category": "classic",
+    "sensitivity": "low",
+    "illustration": "rail-switch",
+    "context": "一辆电车即将撞向五个人。你可以切换轨道，但另一条轨道上有一个人。",
+    "choices": [
+      {
+        "id": "A",
+        "text": "切换轨道，牺牲一人",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 0
+        }
+      },
+      {
+        "id": "B",
+        "text": "不干预，保持现状",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 2,
+          "empathy": 1
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "哲学思想实验",
+      "origin": "现代伦理学课堂常用的电车难题版本，用来讨论能否主动造成较小伤害以避免更大伤害。",
+      "discussion": "争点通常在结果最大化与不得主动伤害之间。",
+      "consequence": "它主要作为思辨模型使用，没有单一现实判决。",
+      "similarCases": [
+        "胖子与天桥",
+        "器官移植困境"
+      ]
+    }
+  },
+  {
+    "id": "footbridge_1",
+    "title": "胖子与天桥",
+    "category": "classic",
+    "sensitivity": "medium",
+    "illustration": "bridge",
+    "context": "一辆电车冲向五个人。桥上有一位体重足以拦车的人，你可以推他下去阻止电车。",
+    "choices": [
+      {
+        "id": "A",
+        "text": "推下他，阻止电车",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 0
+        }
+      },
+      {
+        "id": "B",
+        "text": "不把他当作工具",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 2,
+          "empathy": 1
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "哲学思想实验",
+      "origin": "常与失控电车一起出现，用来比较切换轨道与直接推人之间的直觉差异。",
+      "discussion": "它突出“把人作为手段”与“允许伤害发生”的区别。",
+      "consequence": "该案例影响了道德心理学中对直觉、情绪和推理的研究。",
+      "similarCases": [
+        "失控电车",
+        "医生与器官移植"
+      ]
+    }
+  },
+  {
+    "id": "panopticon_1",
+    "title": "边沁的圆形监狱",
+    "category": "classic",
+    "sensitivity": "low",
+    "illustration": "watchtower",
+    "context": "边沁设想一座圆形监狱：中央监视塔能观察囚犯，囚犯却看不见看守；它还可交给私人承包商经营。",
+    "choices": [
+      {
+        "id": "A",
+        "text": "接受承包经营以提高效率",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 0
+        }
+      },
+      {
+        "id": "B",
+        "text": "拒绝把监狱交给利润驱动",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 2,
+          "empathy": 1
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "哲学与制度设计模型",
+      "origin": "边沁希望用功利主义原则为刑罚改革提供一种“道德科学”。圆形监狱是其中一个方案：中央监视塔可以观察囚犯，而囚犯看不见看守。",
+      "discussion": "争点不只是监视效率，也包括私人承包、囚犯劳动、利润动机与人道刑罚之间的张力。",
+      "consequence": "边沁的具体计划最终未被采纳，但私人公司承包监狱的观念在近现代美国和英国重新引发讨论。",
+      "similarCases": [
+        "私营监狱",
+        "监狱劳动",
+        "数字监控"
+      ]
+    }
+  },
+  {
+    "id": "omelas_1",
+    "title": "离开欧麦拉的人",
+    "category": "literary",
+    "sensitivity": "medium",
+    "illustration": "city",
+    "context": "一座快乐城市的繁荣依赖一个孩子长期受苦。你可以留下享受秩序，也可以离开。",
+    "choices": [
+      {
+        "id": "A",
+        "text": "留下，接受多数人的幸福",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 0
+        }
+      },
+      {
+        "id": "B",
+        "text": "离开，拒绝这种基础",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 0,
+          "empathy": 3
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "文学寓言",
+      "origin": "厄休拉·勒古恩的短篇常被用于讨论建立在个体痛苦上的集体幸福。",
+      "discussion": "它挑战了简单的最大幸福计算，也追问旁观者的责任。",
+      "consequence": "该故事经常出现在伦理学、政治哲学和文学课程中。",
+      "similarCases": [
+        "替罪羊机制",
+        "牺牲少数的公共政策"
+      ]
+    }
+  },
+  {
+    "id": "afghan_goatherds_1",
+    "title": "阿富汗牧羊人",
+    "category": "historical",
+    "sensitivity": "high",
+    "illustration": "mountain",
+    "context": "一支小队执行任务时遇到当地牧羊人。放人可能暴露位置，扣押或伤害他们会侵犯无辜者。",
+    "choices": [
+      {
+        "id": "A",
+        "text": "优先任务安全，限制牧羊人行动",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 0
+        }
+      },
+      {
+        "id": "B",
+        "text": "释放牧羊人，承担暴露风险",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 1,
+          "empathy": 3
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "现实军事伦理案例",
+      "origin": "2005年6月，马库斯·勒特雷尔和另外三名海豹突击队队员在阿富汗靠近巴基斯坦边界的山区执行秘密侦察任务，目标是一名塔利班领导人。小队在山脊上观察村庄时，遇到两名赶着羊群的阿富汗农民和一名约14岁的男孩。三人没有武器，但如果被释放，可能会把小队位置告诉塔利班。",
+      "consequence": "小队最终释放了牧羊人。约一个半小时后，四名士兵被数十名武装人员包围。随后的战斗中，勒特雷尔的三名战友遇难；一架试图救援的直升机也被击落，机上16名士兵全部遇难。",
+      "discussion": "该题仅用于呈现任务安全、平民权利、战友责任和战争规则之间的张力；现实判断需要结合战场事实、交战规则、指挥链和事后资料。",
+      "similarCases": [
+        "战场平民保护",
+        "紧急状态下的权利限制"
+      ]
+    }
+  },
+  {
+    "id": "cabin_boy_1",
+    "title": "船舱男仆案",
+    "category": "historical",
+    "sensitivity": "high",
+    "illustration": "boat",
+    "context": "幸存者漂流海上，食物耗尽。有人主张牺牲最虚弱者以让其他人活下去。",
+    "choices": [
+      {
+        "id": "A",
+        "text": "牺牲一人，保全更多人",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 0
+        }
+      },
+      {
+        "id": "B",
+        "text": "拒绝主动牺牲无辜者",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 1,
+          "empathy": 3
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "法律与伦理案例",
+      "origin": "常指 R v Dudley and Stephens 案，涉及海难、饥饿与必要性辩护。",
+      "discussion": "争点是极端求生状态能否成为杀害无辜者的理由。",
+      "consequence": "该案成为英美法中讨论必要性、生命价值和刑责的重要案例。",
+      "similarCases": [
+        "必要性辩护",
+        "灾难求生伦理"
+      ]
+    }
+  },
+  {
+    "id": "lung_cancer_benefits_1",
+    "title": "肺癌的益处",
+    "category": "policy",
+    "sensitivity": "medium",
+    "illustration": "ledger",
+    "context": "一份冷冰冰的政策计算认为，早逝会减少养老金和医疗支出。你会把它纳入公共决策吗？",
+    "choices": [
+      {
+        "id": "A",
+        "text": "纳入成本收益模型",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 0
+        }
+      },
+      {
+        "id": "B",
+        "text": "拒绝这样计量生命",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 0,
+          "empathy": 3
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "公共政策争议",
+      "origin": "常被联系到烟草、医疗成本与公共财政模型中的争议性计算。",
+      "discussion": "争点是成本收益分析是否会遮蔽人的尊严和伤害。",
+      "consequence": "类似计算通常会引发公众反感，并推动对政策模型伦理边界的反思。",
+      "similarCases": [
+        "生命价值量化",
+        "医疗资源分配"
+      ]
+    }
+  },
+  {
+    "id": "elderly_discount_1",
+    "title": "老年人的折扣",
+    "category": "policy",
+    "sensitivity": "medium",
+    "illustration": "clock",
+    "context": "空气污染政策评估中，70岁以上老人获救生命被定价更低。你会接受这种年龄折扣吗？",
+    "choices": [
+      {
+        "id": "A",
+        "text": "接受年龄权重以优化资源",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 0
+        }
+      },
+      {
+        "id": "B",
+        "text": "坚持生命价值平等",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 2,
+          "empathy": 1
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "公共政策伦理",
+      "origin": "2003年，美国环境保护署递交一份关于新空气污染标准的成本收益分析。报告把因更洁净空气而获救的每条生命估值为370万美元，但70岁以上老人的生命被估为230万美元。这个年龄变量背后是一种功利主义直觉：挽救年轻人可能带来更多剩余生命年和幸福。",
+      "discussion": "该题仅用于呈现政策效率、年龄公平、生命定价和人格平等之间的张力；现实判断需要结合政策目标、模型透明度和保护弱势群体的制度设计。",
+      "consequence": "老年人权益支持者抗议这种“老年人的折扣”，认为政府不应给年轻人的生命设定比老年人更高的价格。受到抗议冲击后，环境保护署很快取消了这一折扣，并撤回了该份报告。",
+      "similarCases": [
+        "医疗优先级",
+        "疫苗分配"
+      ]
+    }
+  },
+  {
+    "id": "organ_sale_1",
+    "title": "出售器官",
+    "category": "bioethics",
+    "sensitivity": "high",
+    "illustration": "scale",
+    "context": "有人愿意出售一个非致命器官来改善生活，也有人担心贫困会让同意变得不自由。",
+    "choices": [
+      {
+        "id": "A",
+        "text": "允许交易以增加供给",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 0
+        }
+      },
+      {
+        "id": "B",
+        "text": "禁止交易以防剥削",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 0,
+          "empathy": 3
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "生命伦理争议",
+      "origin": "器官买卖长期处在自由选择、医疗需求和剥削风险的交叉点。",
+      "discussion": "争点是自愿交易是否足以排除结构性压力。",
+      "consequence": "多数地区限制器官买卖，但围绕短缺与黑市的讨论仍在继续。",
+      "similarCases": [
+        "商业代孕",
+        "人体组织市场"
+      ]
+    }
+  },
+  {
+    "id": "assisted_dying_1",
+    "title": "辅助自愿死亡",
+    "category": "bioethics",
+    "sensitivity": "high",
+    "illustration": "lamp",
+    "context": "一位末期病人清醒、持续地请求医疗协助结束痛苦。你会支持医生提供帮助吗？",
+    "choices": [
+      {
+        "id": "A",
+        "text": "支持，尊重自主与减痛",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 0,
+          "empathy": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "反对，维护生命边界",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 2,
+          "empathy": 0
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "生命伦理与法律争议",
+      "origin": "辅助死亡在不同国家和地区有不同法律边界与医疗程序。",
+      "discussion": "争点是自主、痛苦、医生角色、弱势群体保护与滥用风险。",
+      "consequence": "相关制度通常伴随严格资格审查、等待期和多方确认。",
+      "similarCases": [
+        "临终关怀",
+        "拒绝治疗权"
+      ]
+    }
+  },
+  {
+    "id": "conscription_1",
+    "title": "征召兵与雇佣兵",
+    "category": "policy",
+    "sensitivity": "medium",
+    "illustration": "helmet",
+    "context": "国家需要军队。征召更平等但强制，雇佣更自愿但可能把风险集中给经济弱者。",
+    "choices": [
+      {
+        "id": "A",
+        "text": "采用雇佣制，提高自愿效率",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 0
+        }
+      },
+      {
+        "id": "B",
+        "text": "限制市场化，强调公平分担",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 2,
+          "empathy": 1
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "政治哲学与公共政策",
+      "origin": "军队招募方式常被用于讨论自由选择、义务与不平等。",
+      "discussion": "争点是形式自愿是否掩盖经济压力，以及公民义务能否被市场替代。",
+      "consequence": "现实制度在征兵、职业军队和替代役之间有多种组合。",
+      "similarCases": [
+        "陪审义务",
+        "危险工作的市场报酬"
+      ]
+    }
+  },
+  {
+    "id": "surrogacy_1",
+    "title": "商业代孕",
+    "category": "bioethics",
+    "sensitivity": "high",
+    "illustration": "nest",
+    "context": "一方希望通过商业代孕建立家庭，另一方担心身体劳动、亲子关系和贫困压力被商品化。",
+    "choices": [
+      {
+        "id": "A",
+        "text": "允许并用规则降低风险",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "禁止商业化以防剥削",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 0,
+          "empathy": 3
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "生命伦理与家庭法争议",
+      "origin": "代孕在各地法律差异很大，商业代孕尤其涉及身体自主与剥削风险。",
+      "discussion": "争点是生育自由、儿童利益、合同边界与经济不平等。",
+      "consequence": "不同地区可能采取禁止、限制或监管许可模式。",
+      "similarCases": [
+        "器官交易",
+        "生殖技术监管"
+      ]
+    }
+  },
+  {
+    "id": "pinto_tank_1",
+    "title": "爆炸的油箱",
+    "category": "policy",
+    "sensitivity": "high",
+    "illustration": "fuel-tank",
+    "context": "公司发现油箱安全缺陷，但修复每辆车要花11美元。你会接受不修复的成本收益结论吗？",
+    "choices": [
+      {
+        "id": "A",
+        "text": "接受成本收益结论",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 0
+        }
+      },
+      {
+        "id": "B",
+        "text": "要求修复安全缺陷",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 2,
+          "empathy": 1
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "企业伦理与产品责任案例",
+      "origin": "20世纪70年代，福特平托是美国畅销小型车之一，但被追尾时油箱容易起火。诉讼材料显示，工程师早已注意到风险；公司估算安全装置每辆车约11美元，给1250万辆车加装需1.375亿美元，而预期挽救生命、避免烧伤和车辆损失的收益约4950万美元。",
+      "consequence": "陪审团得知这项计算后非常愤怒，判给原告250万美元损失赔偿和1.25亿美元惩罚性赔偿，惩罚性赔偿后来减至3500万美元。争议集中在公司是否可以给生命和伤害定价。",
+      "discussion": "该题仅用于呈现企业决策、生命定价、安全责任和成本收益分析之间的张力；现实判断需要结合证据、监管标准和产品责任法。",
+      "similarCases": [
+        "老年人的折扣",
+        "肺癌的益处",
+        "产品召回"
+      ]
+    }
+  },
+  {
+    "id": "st_annes_1",
+    "title": "圣·安妮的女生",
+    "category": "classic",
+    "sensitivity": "medium",
+    "illustration": "college-bed",
+    "context": "学院把过夜访客规则改成每晚收费50便士。你会接受这种功利化妥协吗？",
+    "choices": [
+      {
+        "id": "A",
+        "text": "接受收费妥协",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "撤销这类管制",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 2,
+          "empathy": 1
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "制度伦理轶事",
+      "origin": "20世纪70年代，牛津一些女子学院仍限制男性访客在女生宿舍过夜。传统主义者难以继续用传统性道德说服改革者，便改用功利语言：男性留宿会增加热水和床垫更换成本。",
+      "consequence": "圣·安妮学院一度达成妥协：每名女生每周最多三晚留宿访客，访客每晚付50便士。第二天《卫报》用“圣·安妮的女生，每晚50便士”做标题。尴尬效果很快让规则和收费一起被撤销。",
+      "discussion": "该题仅用于呈现德性语言、功利语言、个人自由和制度尴尬之间的张力；现实判断需要结合当时性别制度与学生自治环境。",
+      "similarCases": [
+        "生活管制",
+        "学生自治",
+        "德性与功利语言"
+      ]
+    }
+  },
+  {
+    "id": "consensual_cannibalism_1",
+    "title": "经双方同意的吃人",
+    "category": "bioethics",
+    "sensitivity": "high",
+    "illustration": "contract-plate",
+    "context": "一个成年人自愿回应被杀与被食用的广告。法律应把同意视为有效抗辩吗？",
+    "choices": [
+      {
+        "id": "A",
+        "text": "尊重自愿同意",
+        "score": {
+          "utilitarian": 1,
+          "deontology": 0,
+          "empathy": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "拒绝承认这种同意",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 1,
+          "empathy": 3
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "刑法与身体伦理案例",
+      "origin": "2001年，德国罗滕堡的阿敏·迈维斯发布网络广告，寻找愿意被杀并被食用的人。43岁的软件工程师布兰迪斯回应广告并最终同意。迈维斯杀死了他，并保存、食用了部分尸体。",
+      "consequence": "案件震动公众，也困扰法庭。德国没有单独禁止吃人的法律，辩护方主张受害者自愿参与。迈维斯先被判过失杀人八年半，后来上诉法院推翻该判决，改判终身监禁。",
+      "discussion": "该题仅用于呈现自愿边界、人格尊严、身体不可让渡性和刑法保护之间的张力；现实判断需要结合精神状态、胁迫可能和公共秩序。",
+      "similarCases": [
+        "辅助自愿死亡",
+        "身体商品化",
+        "有效同意"
+      ]
+    }
+  },
+  {
+    "id": "harrison_bergeron_1",
+    "title": "平等主义的噩梦",
+    "category": "literary",
+    "sensitivity": "medium",
+    "illustration": "handicap-radio",
+    "context": "为了人人平等，天赋者必须佩戴障碍装置。你会接受这种强制拉平吗？",
+    "choices": [
+      {
+        "id": "A",
+        "text": "接受强制障碍",
+        "score": {
+          "utilitarian": 1,
+          "deontology": 0,
+          "empathy": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "拒绝压制天赋",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 2,
+          "empathy": 1
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "反乌托邦文学模型",
+      "origin": "冯内古特的短篇《哈里森·伯杰龙》设定在2081年：人人终于平等。聪明人要戴会发出噪音的耳机，漂亮或强壮的人要佩戴遮掩或负重装置，以免“不公平地”超过他人。",
+      "consequence": "14岁的哈里森极其聪明、英俊又强壮，因此被迫佩戴格外沉重的障碍。这个反乌托邦故事把追求平等推到荒诞极端，展示了平等理想可能被误读成压制差异。",
+      "discussion": "该题仅用于呈现机会平等、结果平等、天赋优势和强制校正之间的张力；现实判断需要区分反歧视、社会保障和压制能力的不同制度。",
+      "similarCases": [
+        "机会平等",
+        "结果平等",
+        "反乌托邦"
+      ]
+    }
+  },
+  {
+    "id": "hopwood_admissions_1",
+    "title": "录取中的公正",
+    "category": "policy",
+    "sensitivity": "medium",
+    "illustration": "admissions-folder",
+    "context": "大学为了职业多样性降低少数族裔录取门槛。你会支持这种招生政策吗？",
+    "choices": [
+      {
+        "id": "A",
+        "text": "支持多样性目标",
+        "score": {
+          "utilitarian": 2,
+          "deontology": 0,
+          "empathy": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "坚持同一录取标准",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 2,
+          "empathy": 0
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "教育公平与法律争议",
+      "origin": "谢里尔·霍普伍德出身普通、成绩优秀，申请得克萨斯大学法学院却未被录取。她认为一些成绩和考试分数低于她的少数族裔申请者因反歧视行动政策被录取，因此自己受到不公正对待。",
+      "consequence": "学校回应称，法学院需要增加法律职业中的种族和民族多样性，因为社会对司法的接受也依赖各类群体能在司法系统中被看见。类似争议长期进入美国法院，包括巴克案和密歇根大学法学院案。",
+      "discussion": "该题仅用于呈现个人公平、群体代表性、教育使命和历史不平等修正之间的张力；现实判断需要结合具体政策、法律边界和录取目标。",
+      "similarCases": [
+        "巴克案",
+        "大学录取",
+        "多样性政策"
+      ]
+    }
+  },
+  {
+    "id": "testing_context_1",
+    "title": "校正考试的不足",
+    "category": "policy",
+    "sensitivity": "medium",
+    "illustration": "exam-pencil",
+    "context": "标准化考试可能低估某些学生潜力。录取时应校正其背景差异吗？",
+    "choices": [
+      {
+        "id": "A",
+        "text": "结合背景解读分数",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 0,
+          "empathy": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "只比较考试表现",
+        "score": {
+          "utilitarian": 0,
+          "deontology": 2,
+          "empathy": 0
+        }
+      }
+    ],
+    "explanation": {
+      "sourceType": "教育测量与公平争议",
+      "origin": "反歧视行动的一个理由是校正标准化考试可能存在的偏差。年轻的马丁·路德·金申请波士顿大学神学院博士项目时，GRE语言表达分数低于平均分，但后来成为美国历史上最重要的演说家之一。",
+      "consequence": "支持者认为，同样的分数在不同教育环境中含义不同：破旧公立学校学生的高分可能代表更强潜力。反对者则担心背景校正削弱统一标准。",
+      "discussion": "该题仅用于呈现考试预测力、教育背景、机会不平等和录取标准精确性之间的张力；现实判断需要结合数据、学校使命和透明程序。",
+      "similarCases": [
+        "标准化考试",
+        "背景校正",
+        "反歧视行动"
+      ]
+    }
+  }
+]
